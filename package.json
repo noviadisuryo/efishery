@@ -1,0 +1,22 @@
+{
+  "name": "efishery",
+  "version": "1.0.0",
+  "description": "Efishery Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noviadisuryo/efishery.git"
+  },
+  "author": "Noviadi Suryo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noviadisuryo/efishery/issues"
+  },
+  "homepage": "https://github.com/noviadisuryo/efishery#readme",
+  "devDependencies": {
+    "cypress": "^10.7.0"
+  }
+}
