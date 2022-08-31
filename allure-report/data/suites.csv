@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Aug 31 20:05:05 ICT 2022","Wed Aug 31 20:05:06 ICT 2022","1021","","Login page","","Login page","Incorrect Password Login","Incorrect Password Login",""
+"passed","Wed Aug 31 20:05:00 ICT 2022","Wed Aug 31 20:05:03 ICT 2022","2874","","Login page","","Login page","Success Login","Success Login",""
+"passed","Wed Aug 31 20:05:03 ICT 2022","Wed Aug 31 20:05:04 ICT 2022","1466","","Login page","","Login page","Blocked Login","Blocked Login",""
+"passed","Wed Aug 31 20:05:04 ICT 2022","Wed Aug 31 20:05:05 ICT 2022","955","","Login page","","Login page","Incorrect Username Login","Incorrect Username Login",""
