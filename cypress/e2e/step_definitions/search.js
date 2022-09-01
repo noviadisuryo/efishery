@@ -11,10 +11,12 @@ import SearchPage from "../../pages/SearchPage";
 
   Given("A user opens a Youtube Music", () => {
     cy.visit("/");
+    cy.wait(3000)
   });
 
   When("A user click on the search button", () => {
     SearchPage.clickSearch();
+    cy.wait(1000)
   });
 
   And("A user search for keyword {string}", (keyword) => {
@@ -28,6 +30,8 @@ import SearchPage from "../../pages/SearchPage";
   When("A user click on the title", () => {
     SearchPage.clickTitle();
   });
+
+
 
 // End of Search Definition //
 

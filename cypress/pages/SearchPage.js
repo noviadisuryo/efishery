@@ -6,6 +6,7 @@ class SearchPage {
       loginBtn: () => cy.get("#login-button"),
       titleResult: () => cy.get(':nth-child(2) > #contents > :nth-child(1) > .flex-columns > .title-column > .title > .yt-simple-endpoint'),
       clickSongTitle: () => cy.get(':nth-child(2) > #contents > :nth-child(1) > .flex-columns > .title-column > .title > .yt-simple-endpoint'),
+      wait: () => cy.wait(3000),
     };  
    
     typeKeyword(keyword) {
@@ -13,7 +14,7 @@ class SearchPage {
       }
   
     clickSearch() {
-      this.elements.searchBtn().click();
+      this.elements.searchBtn().click();      
     }
 
     clickTitle() {
