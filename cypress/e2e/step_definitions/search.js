@@ -11,7 +11,7 @@ import SearchPage from "../../pages/SearchPage";
 
   Given("A user opens a Youtube Music", () => {
     cy.visit("/");
-    cy.wait(3000)
+    cy.wait(30000)
   });
 
   When("A user click on the search button", () => {
