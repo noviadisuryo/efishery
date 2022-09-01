@@ -2,7 +2,7 @@ class SearchPage {
     elements = {
       usernameInput: () => cy.get("#user-name"),
       passwordInput: () => cy.get("#password"),
-      searchBtn: () => cy.get('.search-icon > #icon').type('joko tingkir{enter}'),
+      searchBtn: () => cy.get('.search-icon').type('joko tingkir{enter}'),
       loginBtn: () => cy.get("#login-button"),
       titleResult: () => cy.get(':nth-child(2) > #contents > :nth-child(1) > .flex-columns > .title-column > .title > .yt-simple-endpoint'),
       clickSongTitle: () => cy.get(':nth-child(2) > #contents > :nth-child(1) > .flex-columns > .title-column > .title > .yt-simple-endpoint'),
