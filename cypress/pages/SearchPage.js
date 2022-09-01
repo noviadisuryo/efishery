@@ -14,7 +14,7 @@ class SearchPage {
       }
   
     clickSearch() {
-      this.elements.searchBtn().click();      
+      this.elements.searchBtn();      
     }
 
     clickTitle() {
